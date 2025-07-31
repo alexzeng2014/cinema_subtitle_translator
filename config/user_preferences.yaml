@@ -1,0 +1,30 @@
+# 用户偏好配置文件
+# 包含个人风格、常用电影、翻译偏好
+
+# 默认翻译风格
+default_style: "balanced"
+
+# 默认质量等级
+default_quality: "high"
+
+# 收藏的电影列表
+favorite_movies: []
+
+# 自定义翻译风格
+custom_styles:
+  # 示例：
+  # philosophical: "哲学思辨风格，适合《盗梦空间》等科幻电影"
+  # humorous: "轻松幽默风格，适合《复仇者联盟》等超级英雄电影"
+  # romantic: "浪漫深情风格，适合《泰坦尼克号》等爱情电影"
+
+# 语言偏好
+language_preferences:
+  # 示例：
+  # formal_terms: "使用正式用语"
+  # cultural_adaptation: "深度文化适配"
+
+# 自动保存设置
+auto_save: true
+
+# 输出格式
+output_format: "srt"

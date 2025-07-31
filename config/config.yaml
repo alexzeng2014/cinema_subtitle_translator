@@ -1,0 +1,38 @@
+# 系统配置文件
+# 包含翻译参数、缓存设置、性能选项
+
+# API配置
+api:
+  deepseek_api_base: "https://api.deepseek.com/v1"
+  max_concurrent_requests: 5
+  request_timeout: 30
+  retry_attempts: 3
+  # 注意：API密钥已加密存储，请通过环境变量或初始化向导设置
+
+# 缓存配置
+cache:
+  redis_host: "localhost"
+  redis_port: 6379
+  redis_password: null
+  redis_db: 0
+  cache_ttl: 3600
+  enable_disk_cache: true
+  cache_dir: "./cache"
+
+# 性能配置
+performance:
+  batch_size: 10
+  enable_async: true
+  memory_limit_mb: 1024
+  enable_metrics: true
+
+# 安全配置
+security:
+  # 注意：加密密钥和JWT密钥已加密存储
+  log_sensitive_data: false
+  allowed_file_types: [".srt", ".ass", ".vtt"]
+  max_file_size_mb: 50
+
+# 系统配置
+log_level: "INFO"
+debug_mode: false

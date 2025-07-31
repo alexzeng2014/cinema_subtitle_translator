@@ -1,0 +1,45 @@
+# 核心依赖
+pysubs2>=1.7.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# API和网络
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.0
+requests>=2.31.0
+
+# 缓存
+redis>=4.5.0
+diskcache>=5.6.0
+
+# CLI和界面
+rich>=13.0.0
+click>=8.1.0
+typer>=0.9.0
+
+# 安全
+cryptography>=41.0.0
+
+# 语言处理
+spacy>=3.5.0
+jieba>=0.42.1
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 质量保证
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+mypy>=1.5.0
+black>=23.0.0
+isort>=5.12.0
+
+# 监控和日志
+structlog>=23.1.0
+prometheus-client>=0.17.0
+
+# 开发工具
+pre-commit>=3.3.0
+python-dotenv>=1.0.0
